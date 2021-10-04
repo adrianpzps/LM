@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Cluster>
+    <Nodo nombre="Nodo MV 1-3" ip="139.47.2.1">
+        <MV nombre="Maquina de pruebas 1" so="Ubuntu">
+            <ired1 ip="192.169.0.10" mac="00:1e:c2:9e:28:6b"></ired1>
+            <ired2 ip="192.169.0.11" mac="00:1f:c2:9e:28:6b"></ired2>
+        </MV>
+        <MV nombre="Maquina de pruebas 2" so="Android">
+            <ired1 ip="192.169.0.12" mac="00:1g:c2:9e:28:6b"></ired1>
+            <ired2 ip="192.169.0.13" mac="00:1h:c2:9e:28:6b"></ired2>
+        </MV>
+        <MV nombre="Maquina de pruebas 3" so="Windows 10">
+            <ired1 ip="192.169.0.14" mac="00:1i:c2:9e:28:6b"></ired1>
+            <ired2 ip="192.169.0.15" mac="00:1j:c2:9e:28:6b"></ired2>
+        </MV>
+    </Nodo>
+    <Nodo nombre="Nodo MV 4-6" ip="139.47.2.2">
+        <MV nombre="Maquina de pruebas 4" so="Windows 10">
+            <ired1 ip="192.169.0.16" mac="00:1k:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 5" so="Windows 10">
+            <ired1 ip="192.169.0.17" mac="00:1l:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 6" so="Windows 10">
+            <ired1 ip="192.169.0.18" mac="00:1n:c2:9e:28:6b"></ired1>
+        </MV>  
+    </Nodo>
+    <Nodo nombre="Nodo MV 7-9" ip="139.47.2.3">
+        <MV nombre="Maquina de pruebas 7" so="Windows 10">
+            <ired1 ip="192.169.0.19" mac="00:1m:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 8" so="Windows 10">
+            <ired1 ip="192.169.0.20" mac="00:1o:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 9" so="Windows 10">
+            <ired1 ip="192.169.0.21" mac="00:1p:c2:9e:28:6b"></ired1>
+        </MV>  
+    </Nodo>
+    <Nodo nombre="Nodo MV 10-12" ip="139.47.2.4">
+        <MV nombre="Maquina de pruebas 10" so="Windows 10">
+            <ired1 ip="192.169.0.22" mac="00:1q:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 11" so="Windows 10">
+            <ired1 ip="192.169.0.23" mac="00:1r:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 12" so="Windows 10">
+            <ired1 ip="192.169.0.24" mac="00:1s:c2:9e:28:6b"></ired1>
+        </MV>  
+    </Nodo>
+        <Nodo nombre="Nodo MV 13-15" ip="139.47.2.5">
+        <MV nombre="Maquina de pruebas 13" so="Windows 10">
+            <ired1 ip="192.169.0.25" mac="00:1t:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 14" so="Windows 10">
+            <ired1 ip="192.169.0.26" mac="00:1u:c2:9e:28:6b"></ired1>
+        </MV>
+        <MV nombre="Maquina de pruebas 15" so="Windows 10">
+            <ired1 ip="192.169.0.27" mac="00:1v:c2:9e:28:6b"></ired1>
+        </MV>  
+    </Nodo>
+</Cluster>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Torneo nombre="Torneo de Tennis Castilleja" fechainicio="01/01/21" fechafinalizacion="05/01/21">
+    <Octavos>
+        <Partido fechapartido="01/01/21">
+            <Jugador1 nombre="Carlos" apellido="Lopez" edad="25"></Jugador1>
+            <Jugador2 nombre="Iñigo" apellido="Cantero" edad="28"></Jugador2>
+            <Resultado set1="6-3" set2="4-6" set3="6-5"></Resultado>
+        </Partido>
+        <Partido fechapartido="01/01/21">
+            <Jugador1 nombre="Maria" apellido="Ramirez" edad="27"></Jugador1>
+            <Jugador2 nombre="Sergio" apellido="Ortega" edad="32"></Jugador2>
+            <Resultado set1="6-2" set2="2-6" set3="6-3"></Resultado>
+        </Partido>
+    </Octavos>
+    <Cuartos>
+        <Partido fechapartido="02/01/21">
+            <Jugador1 nombre="Carlos" apellido="Lopez" edad="25"></Jugador1>
+            <Jugador2 nombre="Critian" apellido="Perez" edad="33"></Jugador2>
+            <Resultado set1="3-6" set2="6-2" set3="0-6"></Resultado>
+        </Partido>
+        <Partido fechapartido="02/01/21">
+            <Jugador1 nombre="Rodrigo" apellido="Alvarez" edad="22"></Jugador1>
+            <Jugador2 nombre="Santiago" apellido="Ponce" edad="45"></Jugador2>
+            <Resultado set1="6-2" set2="2-6" set3="6-3"></Resultado>
+        </Partido>
+        <Partido fechapartido="02/01/21">
+            <Jugador1 nombre="Vanesa" apellido="Torres" edad="21"></Jugador1>
+            <Jugador2 nombre="Sergio" apellido="Ortega" edad="32"></Jugador2>
+            <Resultado set1="6-1" set2="3-6" set3="6-2"></Resultado>
+        </Partido>
+        <Partido fechapartido="02/01/21">
+            <Jugador1 nombre="Pepe" apellido="Alfaro" edad="24"></Jugador1>
+            <Jugador2 nombre="Jose" apellido="Martinez" edad="42"></Jugador2>
+            <Resultado set1="6-0" set2="4-6" set3="6-3"></Resultado>
+        </Partido>
+    </Cuartos> 
+    <Semifinal>
+        <Partido fechapartido="03/01/21">
+            <Jugador1 nombre="Critian" apellido="Perez" edad="33"></Jugador1>
+            <Jugador2 nombre="Rodrigo" apellido="Alvarez" edad="22"></Jugador2>
+            <Resultado set1="6-1" set2="3-6" set3="6-2"></Resultado>
+        </Partido>
+        <Partido fechapartido="03/01/21">
+            <Jugador1 nombre="Vanesa" apellido="Torres" edad="21"></Jugador1>
+            <Jugador2 nombre="Pepe" apellido="Alfaro" edad="24"></Jugador2>
+            <Resultado set1="2-6" set2="6-4" set3="1-6"></Resultado>
+        </Partido>
+    </Semifinal>
+    <Tercerpuesto>
+        <Partido fechapartido="04/01/21">
+            <Jugador1 nombre="Rodrigo" apellido="Alvarez" edad="22"></Jugador1>
+            <Jugador2 nombre="Vanesa" apellido="Torres" edad="21"></Jugador2>
+            <Resultado set1="6-1" set2="4-6" set3="3-6"></Resultado>
+        </Partido>
+    </Tercerpuesto>
+    <Final>
+        <Partido fechapartido="05/01/21">
+            <Jugador1 nombre="Critian" apellido="Perez" edad="33"></Jugador1>
+            <Jugador2 nombre="Pepe" apellido="Alfaro" edad="24"></Jugador2>
+            <Resultado set1="6-4" set2="4-6" set3="4-6"></Resultado>
+        </Partido>
+    </Final>
+</Torneo>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<empresa>
+    <edificio direccion="Calle Aries" plantas="3">
+        <planta numero="1" mcuadrados="100">
+            <empleado nombre="Sergio" apellido="Lopez" puesto="Conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="Marcos" apellido="Perez" puesto="Teleoperador" extelefonica="02">
+            </empleado>
+            <empleado nombre="Jose" apellido="Navarro" puesto="Informatico" extelefonica="03">
+            </empleado>
+            <empleado nombre="Maria" apellido="Andrade" puesto="Secretaria" extelefonica="04">
+            </empleado>
+            <empleado nombre="Angela" apellido="Jimenez" puesto="CEO" extelefonica="05">
+            </empleado>
+        </planta>
+        <planta numero="2" mcuadrados="80">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+        <planta numero="3" mcuadrados="60">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+    </edificio>
+    <edificio direccion="Calle Real" plantas="3">
+        <planta numero="1" mcuadrados="100">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+        <planta numero="2" mcuadrados="80">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+        <planta numero="3" mcuadrados="60">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+    </edificio>
+    <edificio direccion="Calle Ancha" plantas="3">
+        <planta numero="1" mcuadrados="100">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+        <planta numero="2" mcuadrados="80">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+        <planta numero="3" mcuadrados="60">
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+            <empleado nombre="sergio" apellido="lopez" puesto="conserje" extelefonica="01">
+            </empleado>
+        </planta>
+    </edificio>
+</empresa>
