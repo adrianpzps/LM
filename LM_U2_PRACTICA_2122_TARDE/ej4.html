@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej4</title>
+</head>
+<body>
+    <form>
+        <fieldset style="border-top-color: palegoldenrod; border-bottom-style: none; border-left-color: palegoldenrod; border-right-color: palegoldenrod; background-color: palegoldenrod; height: 25; border-width: 4;">
+            <table>
+                <tr>
+                    <th style="font-size: larger; width: 150; text-align: left;" >
+                        <label for="leave_form">Leave Form</label>
+                    </th>
+                    <td>
+                        <select name="leave_form" id="leave_form" style="border: palegoldenrod; background-color: palegoldenrod;">
+                            <option value="more_actions">More Actions</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border-top-style: none; border-right-color: palegoldenrod; border-left-color: palegoldenrod; border-bottom-style: none; border-width: 4;">
+            <table>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="employee_email">Employee Email</label>
+                    </th>
+                    <td>
+                        <select name="employee_email" id="employee_email" style="width: 190; background-color: rgb(236, 226, 197); border-color: rgb(194, 177, 177); border-style: solid;">
+                            <option value="email_1">appuser@zohocreator.com</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="employee_id">Employee Id</label>
+                    </th>
+                    <td>
+                        <input type="number" name="employee_id" id="employee_id" required style="background-color: rgb(236, 226, 197); border-color: rgb(194, 177, 177); border-style: solid;" placeholder="232" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="employee_name">Employee name</label>
+                    </th>
+                    <td>
+                        <input type="text" name="employee_name" id="employee_name" required style="background-color: rgb(236, 226, 197); border-color: rgb(194, 177, 177); border-style: solid; " placeholder="appuser" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="designation">Designation</label>
+                    </th>
+                    <td>
+                        <input type="text" name="designation" id="designation" required style="background-color: rgb(236, 226, 197); border-color: rgb(194, 177, 177); border-style: solid; " placeholder="Team Leader" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="leave_type">Leave type</label> <label style="color: red;">*</label>
+                    </th>
+                    <td>
+                        <select name="leave_type" id="leave_type" style="width: 190;" required>
+                            <option value="select">-Select-</option>
+                            <option value="optionx">Option X</option>
+                            <option value="optiony">Option Y</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 20;"></td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="from">From</label> <label style="color: red;">*</label>
+                    </th>
+                    <!--Es redundante poner el [dd-MMM-yyyy], porque aparece en el input, aun así lo pongo por si en otros navegadores no-->
+                    <td>
+                        <input type="date" name="from" id="from" required> <label>[dd-MMM-yyyy]</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="to">To</label> <label style="color: red;">*</label>
+                    </th>
+                    <!--Es redundante poner el [dd-MMM-yyyy], porque aparece en el input, aun así lo pongo por si en otros navegadores no-->
+                    <td>
+                        <input type="date" name="to" id="to" required> <label>[dd-MMM-yyyy]</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40;">
+                        <label for="no_of_days">No of Days</label>
+                    </th>
+                    <td>
+                        <input type="text" name="no_of_days" id="no_of_days" style="width: 125;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 7;"></td>
+                </tr>
+                <tr>
+                    <th style="width: 250; text-align: left; height: 40; vertical-align: top;">
+                        <label for="reason">Reason</label>
+                    </th>
+                    <td>
+                        <textarea type="text" name="reason" id="reason" cols="22" rows="7"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border-top-style: none; border-left-color: palegoldenrod; border-right-color: palegoldenrod; border-bottom-color: palegoldenrod; background-color: rgb(218, 218, 218); border-width: 4;">
+            <table>
+                <tr>
+                    <td style="width: 200;"></td>
+                    <td>
+                        <button type="submit" style="background: #d4a809; color: white; border-color: rgb(218, 145, 93); border-style: solid; font-size: large; width: 100;"><b>Submit</b></button>
+                        <button type="reset" style="background: #d4a809; color: white; border-color: rgb(218, 145, 93); border-style: solid; font-size: large; width: 100;"><b>Reset</b></button>
+
+                    </td>
+                </tr>
+            </table>   
+        </fieldset>
+    </form>
+</body>
+</html>
